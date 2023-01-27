@@ -36,7 +36,7 @@ async fn main() {
                 .index(1),
         )
         .arg(
-            arg!(search: -s --search <DIR> "Directories to search for files").num_args(1..),
+            arg!(search: -s --search <DIR> "Directories to search for downloaded files").num_args(1..),
         )
         .arg(
             arg!(skip: -k <SKIP> "Directories to skip").num_args(1..),
